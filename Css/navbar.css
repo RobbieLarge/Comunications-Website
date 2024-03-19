@@ -1,0 +1,41 @@
+/* Navigation bar styling */
+body {
+    background-color: #333333;  
+}
+
+nav {
+    border: 4px solid #007bff; /* Blue border around the navigation bar */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: auto;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  nav li {
+    margin-right: 15px; /* Spacing between menu items */
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #ffffff; /* Default text color */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  nav a:hover {
+    color: #007bff; /* Text color on hover */
+  }
+  
+  h1 {
+    color: #007bff;
+    text-align: center;
+    font-size: 60px;
+  }
+  
+  p{
+    color: white;
+  }
