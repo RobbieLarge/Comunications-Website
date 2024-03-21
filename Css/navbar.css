@@ -1,6 +1,8 @@
-/* Navigation bar styling */
+/* Navigation bar and global styling */
 body {
-    background-color: #333333;  
+    background-color: #333333; 
+    justify-content: center;
+    display: grid;
 }
 
 nav {
@@ -36,6 +38,99 @@ nav {
     font-size: 60px;
   }
   
-  p{
+  p {
     color: white;
   }
+  
+  ul {
+    font-size: 18px;
+    color: white;
+  }
+  ul li::marker{
+    color: #007bff;
+    font-size: x-large;
+    padding: 20px;
+  }
+
+#h3h h3{
+    font-size: 28px;
+    color: #007bff;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  #h3Content ul {
+    max-width: 700px;
+    margin: auto;
+    padding-bottom: 100px;
+  }
+  .OBJ { 
+    max-width: 1000px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; /* This will put space between the text content and image */
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 20px;
+    text-align: left; /* Aligns text to the left */
+    padding-bottom: 100px;
+}
+
+.OBJ .text-content {
+    max-width: 50%; 
+}
+
+.OBJ h2 { 
+    color: #007bff;
+    font-size: 28px;
+    text-align: center; /* Centers the heading */
+    padding-bottom: 20px; /* Adjusted padding for better spacing */
+}
+
+#OBJImage {
+    max-width: 70%; /* Adjust image size to take up to half of the parent container */
+    height: 70%; /* Maintains aspect ratio */
+}
+
+.faq{
+    color: #007bff;
+    font-size: 28px;
+    text-align: center;
+}
+
+.faqq {
+    list-style-type: none;
+    max-width: 600px;
+    margin:0 auto;
+    font-size: 18px;
+    padding: 20px;
+    justify-content: center;
+    text-align: left;
+    color: white
+  }
+
+  /* Normal state of the link */
+.faq-link {
+    text-decoration: none; 
+    color: white; 
+}
+
+.faq-link:hover {
+    color: #007bff; 
+}
+
+.languages{
+  max-width: 700;
+  max-height: auto;
+}
+
+.languages h2{
+  color: #007bff;
+  font-size: 28px;
+  text-align: center;
+}
+
+
+
+#spaced-list li{
+  margin-bottom: 25px;
+}
