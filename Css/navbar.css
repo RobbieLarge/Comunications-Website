@@ -4,11 +4,9 @@ body {
     justify-content: center;
     display: grid;
 }
-
 nav {
     border: 4px solid #007bff; /* Blue border around the navigation bar */
   }
-  
   nav ul {
     list-style-type: none;
     display: flex;
@@ -17,31 +15,25 @@ nav {
     text-align: center;
     font-size: 30px;
   }
-  
   nav li {
     margin-right: 15px; /* Spacing between menu items */
   }
-  
   nav a {
     text-decoration: none;
     color: #ffffff; /* Default text color */
     transition: color 0.3s ease; /* Smooth transition for hover effect */
   }
-  
   nav a:hover {
     color: #007bff; /* Text color on hover */
   }
-  
   h1 {
     color: #007bff;
     text-align: center;
     font-size: 60px;
   }
-  
   p {
     color: white;
   }
-  
   ul {
     font-size: 18px;
     color: white;
@@ -51,7 +43,6 @@ nav {
     font-size: x-large;
     padding: 20px;
   }
-
 #h3h h3{
     font-size: 28px;
     color: #007bff;
@@ -74,32 +65,27 @@ nav {
     text-align: left; /* Aligns text to the left */
     padding-bottom: 100px;
 }
-
 .OBJ .text-content {
     max-width: 50%; 
 }
-
 .OBJ h2 { 
     color: #007bff;
     font-size: 28px;
     text-align: center; /* Centers the heading */
     padding-bottom: 20px; /* Adjusted padding for better spacing */
 }
-
 #OBJImage {
     max-width: 70%; /* Adjust image size to take up to half of the parent container */
     height: 70%; /* Maintains aspect ratio */
 }
-
 .faq{
     color: #007bff;
     font-size: 28px;
     text-align: center;
 }
-
 .faqq {
     list-style-type: none;
-    max-width: 600px;
+    max-width: 700px;
     margin:0 auto;
     font-size: 18px;
     padding: 20px;
@@ -107,30 +93,50 @@ nav {
     text-align: left;
     color: white
   }
-
   /* Normal state of the link */
 .faq-link {
     text-decoration: none; 
     color: white; 
 }
-
 .faq-link:hover {
     color: #007bff; 
 }
-
 .languages{
   max-width: 700;
   max-height: auto;
 }
-
 .languages h2{
   color: #007bff;
   font-size: 28px;
   text-align: center;
 }
-
-
-
 #spaced-list li{
   margin-bottom: 25px;
+}
+#pph3{
+  color: #007bff;
+  font-size: 28px;
+  margin: 0 auto;
+}
+.examples {
+  display: inline-flex;
+  grid-template-columns:  repeat(2, auto);
+  grid-template-rows: repeat(3, auto);
+  justify-content: space-between; 
+  text-align: left;
+  max-width: 750px;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin: auto;
+}
+.language-title p {
+  font-size: 25px;
+  font-weight: bold; 
+  margin: 0;
+  padding-bottom: 60px;
+  color: #007bff;
+}
+.language-content p {
+  max-width: 350px;
+  margin: 0;
 }
