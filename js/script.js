@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     <li style="margin-right: 20px;"><a href="ProgrammingPage.html">Programming</a></li>
                     <li style="margin-right: 20px;"><a href="Resources.html">Resources</a></li>
                     <li style="margin-right: 20px;"><a href="Tutorials.html">Tutorials</a></li>
-                    <li style="margin-right: 20px;"><a href="CommunityForum.html">Community Forum</a></li>
+                    <li style="margin-right: 20px;"><a href="CommunityForum.html">Community Forums</a></li>
                 </ul>
             </nav>
         </header>

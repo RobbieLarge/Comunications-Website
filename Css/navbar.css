@@ -1,182 +1,197 @@
 /* Navigation bar and global styling */
 body {
-    background-color: #333333; 
-    justify-content: center;
-    display: grid;
+  background-color: #333333; 
+  justify-content: center;
+  display: grid;
 }
 nav {
-    border: 4px solid #007bff; /* Blue border around the navigation bar */
-  }
-  nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 30px;
-  }
-  nav li {
-    margin-right: 15px; /* Spacing between menu items */
-  }
-  nav a {
-    text-decoration: none;
-    color: #ffffff; /* Default text color */
-    transition: color 0.3s ease; /* Smooth transition for hover effect */
-  }
-  nav a:hover {
-    color: #007bff; /* Text color on hover */
-  }
-  h1 {
-    color: #007bff;
-    text-align: center;
-    font-size: 60px;
-  }
-  p {
-    color: white;
-    font-size: 20px;
-  }
-  ul {
-    font-size: 20px;
-    color: white;
-  }
-  ul li::marker{
-    color: #007bff;
-    font-size: x-large;
-    padding: 20px;
-  }
+  border: 4px solid #007bff; /* Blue border around the navigation bar */
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+}
+nav li {
+  margin-right: 15px; /* Spacing between menu items */
+}
+nav a {
+  text-decoration: none;
+  color: #ffffff; /* Default text color */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+nav a:hover {
+  color: #007bff; /* Text color on hover */
+}
+h1 {
+  color: #007bff;
+  text-align: center;
+  font-size: 60px;
+}
+p {
+  color: white;
+  font-size: 20px;
+}
+ul {
+  font-size: 20px;
+  color: white;
+}
+ul li::marker{
+  color: #007bff;
+  font-size: x-large;
+  padding: 20px;
+}
 #h3h h3{
-    font-size: 28px;
-    color: #007bff;
-    text-align: center;
-    padding-bottom: 30px;
-  }
-  #h3Content ul {
-    max-width: 700px;
-    margin: auto;
-    padding-bottom: 100px;
-  }
-  .OBJ { 
-    max-width: 1000px;
-    display: flex; 
-    align-items: center;
-    justify-content: space-between; /* This will put space between the text content and image */
-    margin: 0 auto;
-    font-size: 18px;
-    padding: 20px;
-    text-align: left; /* Aligns text to the left */
-    padding-bottom: 100px;
+  font-size: 28px;
+  color: #007bff;
+  text-align: center;
+  padding-bottom: 30px;
+}
+#h3Content ul {
+  max-width: 700px;
+  margin: auto;
+  padding-bottom: 100px;
+}
+.OBJ { 
+  max-width: 1000px;
+  display: flex; 
+  align-items: center;
+  justify-content: space-between; /* This will put space between the text content and image */
+  margin: 0 auto;
+  font-size: 18px;
+  padding: 20px;
+  text-align: left; /* Aligns text to the left */
+  padding-bottom: 100px;
 }
 .OBJ .text-content {
-    max-width: 50%; 
+  max-width: 50%; 
 }
 .OBJ h2 { 
-    color: #007bff;
-    font-size: 28px;
-    text-align: center; /* Centers the heading */
-    padding-bottom: 20px; /* Adjusted padding for better spacing */
+  color: #007bff;
+  font-size: 28px;
+  text-align: center; /* Centers the heading */
+  padding-bottom: 20px; /* Adjusted padding for better spacing */
 }
 #OBJImage {
-    max-width: 70%; /* Adjust image size to take up to half of the parent container */
-    height: 70%; /* Maintains aspect ratio */
+  max-width: 70%; /* Adjust image size to take up to half of the parent container */
+  height: 70%; /* Maintains aspect ratio */
 }
 .faq{
-    color: #007bff;
-    font-size: 28px;
-    text-align: center;
+  color: #007bff;
+  font-size: 28px;
+  text-align: center;
 }
 .faqq {
-    list-style-type: none;
-    max-width: 700px;
-    margin:0 auto;
-    font-size: 18px;
-    padding: 20px;
-    justify-content: center;
-    text-align: left;
-    color: white
-  }
-  /* Normal state of the link */
+  list-style-type: none;
+  max-width: 700px;
+  margin:0 auto;
+  font-size: 18px;
+  padding: 20px;
+  justify-content: center;
+  text-align: left;
+  color: white
+}
+/* Normal state of the link */
 .faq-link {
-    text-decoration: none; 
-    color: white; 
+  text-decoration: none; 
+  color: white; 
 }
 .faq-link:hover {
-    color: #007bff; 
+color: #007bff; 
+}
+#progphoto img{
+width: 70%;
+padding-left: 175px;
 }
 .languages{
-  max-width: 800px;
+max-width: 800px;
+padding-left: 175px;
 }
 .languages h2{
-  color: #007bff;
-  font-size: 28px;
-  text-align: center;
+color: #007bff;
+font-size: 28px;
+text-align: center;
 }
 #spaced-list li{
-  margin-bottom: 25px;
+margin-bottom: 25px;
 }
 #pph3{
-  color: #007bff;
-  font-size: 28px;
-  margin: 0 auto;
+color: #007bff;
+font-size: 28px;
+margin: 0 auto;
 }
 .examples {
-  display: inline-flex;
-  grid-template-columns:  repeat(2, auto);
-  grid-template-rows: repeat(3, auto);
-  justify-content: space-between; 
-  text-align: left;
-  max-width: 800px;
-  flex-wrap: wrap;
-  gap: 40px;
-  margin: auto;
+display: inline-flex;
+grid-template-columns:  repeat(2, auto);
+grid-template-rows: repeat(3, auto);
+justify-content: space-between; 
+text-align: left;
+max-width: 800px;
+flex-wrap: wrap;
+gap: 40px;
+margin: auto;
 }
 .language-title p {
-  font-size: 25px;
-  font-weight: bold; 
-  margin: 0;
-  padding-bottom: 60px;
-  color: #007bff;
+font-size: 25px;
+font-weight: bold; 
+margin: 0;
+padding-bottom: 60px;
+color: #007bff;
 }
 .language-content p {
-  max-width: 350px;
-  margin: 0;
+max-width: 350px;
+margin: 0;
 }
 #orh2{
-  text-align: center;
+text-align: center;
+display: flex;
+display: inline-block;
+color: #007bff;
+font-size: 28px;
+}
+.textfix{
   display: flex;
-  display: inline-block;
-  color: #007bff;
-  font-size: 28px;
+  justify-content: center;
+  margin-right: -120px;
+  margin-left: 180px;
+  align-items: center;
 }
 .onlineresources{
+  display: inline;
   display: flex;
   padding: 20px;
   margin: 40px;
   max-width: 700px;
-}
+  }
+
 #howtocodetitle p{
-  color: #007bff;
-  font-size: 28px;
-  text-align: center;
+color: #007bff;
+font-size: 28px;
+text-align: center;
+margin-top: -90px;
 }
 #idetitle p{
-  text-align: center;
-  color: #007bff;
-  font-size: 28px;
+text-align: center;
+color: #007bff;
+font-size: 28px;
 }
 #ide{
-  max-width: 450px;
-  text-align: center;
+max-width: 450px;
+text-align: center;
 }
 #howtocodelinkstitle p{
-  color: #007bff;
-  font-size: 28px;
+color: #007bff;
+font-size: 28px;
 }
 #howtocodelinksul ul a{
-  font-size: 20px;
-  color: #ffffff;
-  text-decoration: none;
+font-size: 20px;
+color: #ffffff;
+text-decoration: none;
 }
 #howtocodelinksul ul a:hover{
-  color: #007bff;
+color: #007bff;
 }
 #howtocode{
 max-width: 375px;
@@ -184,14 +199,50 @@ padding-right: 60px;
 text-align: center;
 }
 #downloadidetitle p {
-  color: #007bff;
-  font-size: 28px;
+color: #007bff;
+font-size: 28px;
 }
 #downloadideul ul a{
+font-size: 20px;
+color: white;
+text-decoration: none;
+}
+#downloadideul ul a:hover{ 
+color: #007bff;
+}
+#resourcesphoto img{
+  width: 70%;
+  padding-left: 175px;
+}
+.video-wrapper {
+  margin: 20px 0; 
+  text-align: center; 
+}
+.video-wrapper iframe {
+  width: 560px;
+  height: 315px;
+}
+.communityf h2{
+  color: #007bff;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+}
+#communityful {
+  text-align: center; 
+}
+#communityful ul {
+  list-style-type: disc;
+  padding: 0;
+  margin: 0 auto;
+  display: inline-block; 
+  text-align: left; 
+}
+#communityful ul a {
   font-size: 20px;
   color: white;
   text-decoration: none;
 }
-#downloadideul ul a:hover{ 
+#communityful ul a:hover {
   color: #007bff;
 }
